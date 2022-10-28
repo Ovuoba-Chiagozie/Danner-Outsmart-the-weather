@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http//www.w3.org/1999/xhtml" xlmns:o="urn:schemas-microsoft-com:office:office">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="x-apple-disable-messaging-reformatting">
+    <title>Document</title>
+
+    <style>
+        @import url(http://fast.fonts.net/t/1.css?apiType=css&projectid=c4c8621d-5cf1-45fc-b71c-cfe59738ea46);
+        @font-face {
+          font-family: "DIN Next LT W01 Light";
+          src: url(https://s3.amazonaws.com/content.danner.com/email/Fonts/fb0dd5e6-cf57-43be-8f3f-2880d5389694.eot?#iefix);
+          src: url(https://s3.amazonaws.com/content.danner.com/email/Fonts/fb0dd5e6-cf57-43be-8f3f-2880d5389694.eot?#iefix) format("eot"), url(https://s3.amazonaws.com/content.danner.com/email/Fonts/14aba99e-8c97-4daa-a8df-67920a051402.woff2) format("woff2"), url(https://s3.amazonaws.com/content.danner.com/email/Fonts/96fd6d6f-fad6-4dd9-ab70-29547a56cacd.woff) format("woff"), url(https://s3.amazonaws.com/content.danner.com/email/Fonts/cdc1c0e4-213b-4a01-a1dc-af6dddf2263a.ttf) format("truetype")
+        }
+        @font-face {
+          font-family: "DIN Next LT W01 Bold";
+          src: url(https://s3.amazonaws.com/content.danner.com/email/Fonts/fa5ed46b-792d-4f47-894e-fa587cf4e1cf.eot?#iefix);
+          src: url(https://s3.amazonaws.com/content.danner.com/email/Fonts/fa5ed46b-792d-4f47-894e-fa587cf4e1cf.eot?#iefix) format("eot"), url(https://s3.amazonaws.com/content.danner.com/email/Fonts/03008527-67bd-478e-98e3-3b56dd9a6520.woff2) format("woff2"), url(https://s3.amazonaws.com/content.danner.com/email/Fonts/557f817d-9c25-4a23-baaf-a3cf84a7cd7c.woff) format("woff"), url(https://s3.amazonaws.com/content.danner.com/email/Fonts/92ed1479-1d40-4a94-8baf-6abd88b17afa.ttf) format("truetype")
+        }
+        @font-face {
+          font-family: "DIN Next LT W01 Heavy";
+          src: url(https://s3.amazonaws.com/content.danner.com/email/Fonts/215d2e40-5e98-4976-b7d4-80d770fb5de9.eot?#iefix);
+          src: url(https://s3.amazonaws.com/content.danner.com/email/Fonts/215d2e40-5e98-4976-b7d4-80d770fb5de9.eot?#iefix) format("eot"), url(https://s3.amazonaws.com/content.danner.com/email/Fonts/a173e9a2-1b5d-4cd0-bd6e-ee2185940233.woff2) format("woff2"), url(https://s3.amazonaws.com/content.danner.com/email/Fonts/ac5c3376-2fd7-405c-82f6-75ddc1f8d386.woff) format("woff"), url(https://s3.amazonaws.com/content.danner.com/email/Fonts/2fe26fac-819f-4bb8-adb0-4d1a62fab72d.ttf) format("truetype")
+        }
+        @font-face {
+          font-family: "DINNextW01-CondensedHea";
+          src: url(https://s3.amazonaws.com/content.danner.com/email/Fonts/10ea3ea4-cd5d-4305-a069-553921bb4565.eot?#iefix);
+          src: url(https://s3.amazonaws.com/content.danner.com/email/Fonts/10ea3ea4-cd5d-4305-a069-553921bb4565.eot?#iefix) format("eot"), url(https://s3.amazonaws.com/content.danner.com/email/Fonts/acbfa600-0449-44a4-b773-d281b71044d8.woff2) format("woff2"), url(https://s3.amazonaws.com/content.danner.com/email/Fonts/d245e531-16e5-4428-904d-d6cb987d44f9.woff) format("woff"), url(https://s3.amazonaws.com/content.danner.com/email/Fonts/b85fd97e-f10c-4dde-87fb-51dd1bdbf114.ttf) format("truetype")
+        }
+      </style>
+
+      <style>
+
+        @media screen and (max-width:655px) {
+
+            .fullwidth {   
+                       
+                max-width: 100% !important;
+                width: 100%  !important;
+                
+                
+            }
+
+            .padding {
+
+                padding-left: 30px !important;
+            }
+            
+        }
+      </style>
+
+<!--[if mso]>
+
+    <noscript>
+
+        <xml>
+
+            <o:officedocumentsettings>
+
+                <pixelsperinch>96</pixelsperinch>
+
+            </o:officedocumentsettings>
+        </xml>
+    </noscript>
+
+<![end if]-->
+
+</head>
+<body style="padding: 0px; margin:0px; word-spacing: normal; background-color:#ffffff">
+
+    <div role="article" aria-roledescription="email" lang="en" style="-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%; padding:0px; margin:0px">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; background-color: #F5F5F3;">
+
+    <tr>
+
+        <td style="padding: 0px 0px 50px 0px; margin:0px" align="center">
+            
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:94%; max-width: 600px; background-color: #E8EAEA">
+
+    <tr>
+
+        <td style="padding: 20px 0px 0px 0px; margin:0px" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width: 600px;">
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width: 600px;">
+
+    <tr>
+            
+        <td style="padding: 0px; margin:0px" align="center">
+
+            <p style="padding: 0px; margin:0px; font-size:16px; line-height:18px; font-family:Arial, Helvetica, sans-serif; color:#000000">
+                  <a target="_blank" href="" style="padding: 0px; margin:0px; text-decoration:none">
+                <img src="https://d3k81ch9hvuctc.cloudfront.net/company/NHDMiU/images/d92e2a0f-a3bd-4c38-a3a9-f7680e65a2c2.jpeg" alt=" Feet walking up a mountain and the Danner logo"  width="600px" style="padding: 0px; margin:0px; width:600px; max-width:100%; display: block;">
+                  </a>
+            </p>
+            
+        </td>
+            
+    </tr>
+            
+</table>
+
+        </td>
+
+    </tr>
+
+</table>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:48px; line-height:48px; -mso-line-height-rule:exactly; background-color: #E8EAEA;">
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px 0px; margin:0px;" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width: 600px;">
+
+    <tr>
+
+        <td style="padding: 0px 30px; margin:0px;" align="center">
+
+             <p style="padding: 0px; margin:0px; font-size: 18px; line-height: 27px; color: #19322F; font-family:&quot;DIN Next LT W01 Light&quot;, Helvetica, Arial, Verdana, sans-serif;">
+                Our all&#8209;new Trail 2650 Campo GTX offers the same snug, sock&#8209;like construction and Vibram&reg; Megagrip traction as its warm&#8209;weather counterpart &#8212; and also adds a whole new level of waterproof versatility. It&#8217;s designed with GORE&#8209;TEX Invisible Fit technology to create a waterproof upper that&#8217;s lightweight and as comfortable as your favorite pair of running shoes. With these hikers, standing water, streams, and rivers are no longer obstacles, but features on the trail you can&#8217;t wait to tackle.
+            </p>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 30px 0px 0px 0px ; margin:0px;" align="center">
+    
+    <table role="presentation" style="padding: 0px; margin:0px; border: 0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width:245px " align="center">
+    
+    <tr>
+        
+        <td style="padding: 15px 35px; margin:0px;background-color: #19322F; border: 0px solid #19322F; border-radius:5px" align="center">
+            <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+            <p style="padding: 0px 0px 0px; margin:0px; font-size:15px; line-height:18px; font-family:'DINNextW01-CondensedHea',Helvetica, Arial, Verdana, sans-serif ; color: #ffffff; font-weight:bold ; text-transform: uppercase; background-color: #19322F;" align="center"> 
+    
+                SHOP 2650 CAMPO GTX
+            
+            </p>
+            </a>
+        </td>
+        
+    </tr>
+    
+    </table>
+    
+        </td>
+        
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:40px; line-height:40px; -mso-line-height-rule:exactly; background-color: #E8EAEA;">
+
+        </td>
+
+    </tr>
+
+
+    <tr>
+
+        <td style="padding: 0px 0px 0px 0px; margin:0px" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width: 600px;">
+
+    <tr>
+
+        <td style="padding: 0px 50px 0px 50px; margin:0px" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width: 500px;">
+
+    <tr>
+            
+        <td style="padding: 0px; margin:0px" align="center">
+
+            <p style="padding: 0px; margin:0px; font-size:16px; line-height:18px; font-family:Arial, Helvetica, sans-serif; color:#000000">
+                <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+                <img src="https://d3k81ch9hvuctc.cloudfront.net/company/NHDMiU/images/e8bf8647-d21c-444a-ae08-6ae9551387e4.png" alt=" "  width="500px" style="padding: 0px; margin:0px; width:500px; max-width:100%; display: block;">
+                </a>
+            </p>
+            
+        </td>
+            
+    </tr>
+            
+</table>
+
+        </td>
+
+    </tr>
+
+</table>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 20px 0px 10px 0px; margin:0px" align="center">
+            <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none; color:#19322F">
+            <h1 style="padding:0px; margin:0px; font-size: 24px; line-height:22px; text-transform: uppercase ; color: #19322F; font-family: &quot;DIN Next LT W01 Bold&quot;, Helvetica, Arial, Verdana, sans-serif;  ">
+               BLUE/ORANGE
+            </h1>
+             </a>
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width:295px" align="center">
+
+    <tr align="center">
+
+        <td style="padding: 0px; margin:0px; border-right: 1px solid #19322F; width:0px" align="center">
+            <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">   
+            <p style="padding:0px 5px 0px 0px; margin:0px; font-size: 18px; line-height:18px; text-transform: uppercase ; color: #19322F; font-weight: bold; font-family: &quot;DIN Next LT W01 Bold&quot;, Helvetica, Arial, Verdana, sans-serif;  ">
+
+                SHOP MEN&#8217;S
+
+            </p>
+             </a>
+        </td>
+
+        <td style="padding: 0px; margin:0px; width:0px" align="left">
+            <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+            <p style="padding:0px 0px 0px 5px; margin:0px; font-size: 18px;  line-height:18px; text-transform: uppercase ; color: #19322F; font-weight: bold; font-family: &quot;DIN Next LT W01 Bold&quot;, Helvetica, Arial, Verdana, sans-serif;  ">
+
+                SHOP WOMEN&#8217;S
+
+            </p>
+            </a>
+        </td>
+
+    </tr>
+
+</table>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:50px; line-height:50px; -mso-line-height-rule:exactly; background-color: #E8EAEA;">
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px">
+    
+    <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; background-color: #E8EAEA; text-align: center; font-size: 0px;" align="center">
+    
+    <tr>
+    
+        <td style="padding: 0px; margin:0px">
+    
+    <!--[if (gte mso 9) | (IE)]>
+    
+    <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse;" align="center">
+    
+    <tr>
+    
+        <td style="padding: 0px; margin:0px; width:50%" valign="top">
+    <![end if]-->
+    
+    <div style="padding: 0px; margin:0px; display:inline-block; vertical-align: middle;" align="center">
+    
+    <table class="fullwidth" role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width:360px ; vertical-align: middle;" align="center">
+    
+    <tr>
+    
+        <td style="padding: 0px 30px 0px 30px; margin:0px">
+    
+    <table class="fullwidth" role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width: 300px; vertical-align: middle;" align="center">
+    
+    <tr>
+    
+        <td style="padding: 0px ; margin: 0px;" align="center">
+    
+             <p style="padding: 0px; margin:0px; font-size:16px; line-height:18px; font-family:Arial, Helvetica, sans-serif; color:#000000">
+                <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+                <img class="fullwidth" src="https://d3k81ch9hvuctc.cloudfront.net/company/NHDMiU/images/ed86fd52-4d6c-465f-bd09-bd5111784207.jpeg" alt="" title="" width="" style="padding: 0px; margin:0px; width:300px; max-width:100%; display:block; height: auto ">
+                </a>
+            </p>
+    
+        </td>
+    
+    </tr>
+    
+    </table>
+        
+        </td>
+        
+    </tr>
+    
+    </table>
+    
+    </div>
+    
+    <!--[if (gte mso 9) | (IE)]>
+    
+        </td>
+            
+    <![end if]-->
+    
+    <!--[if (gte mso 9) | (IE)]>
+    
+        <td style="padding: 0px; margin:0px; width:50%" valign="top">
+    
+    <![end if]-->
+    
+    <div style="padding: 0px; margin:0px; display:inline-block; vertical-align: middle;" align="center">
+    
+    <table class="fullwidth" role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width:240px;" align="center">
+    
+        <tr>
+    
+            <td class="padding" style="padding: 30px 20px 0px 0px; margin:0px">
+    
+    <table class="fullwidth" role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width:260px; " align="center">
+    
+        <tr>
+    
+            <td style="padding: 0px 0px 0px 0px; margin: 0px; text-align: left;" align="center">
+
+                <h1 style="padding:0px 0px 0px 0px; margin:0px; text-align: left; font-size: 20px;  line-height:22px; text-transform: uppercase ; color: #19322F; font-weight: bold; font-family: &quot;DIN Next LT W01 Bold&quot;, Helvetica, Arial, Verdana, sans-serif;  ">
+
+                    FITS LIKE A GLOVE
+
+                </h1>
+
+                <P style="padding:0px 0px 0px 0px; margin:0px; text-align: left; font-size: 16px;  line-height:26px;  color: #19322F; font-family:&quot;DIN Next LT W01 Light&quot;, Helvetica, Arial, Verdana, sans-serif;  ">
+                    Breathable sock&#8209;like construction keeps your foot snug and comfortable on the inside. Abrasion&#8209;resistant leather and textile upper keeps your foot protected on the outside.
+                </P>
+    
+                
+    
+            </td>
+    
+        </tr>
+    
+    </table>
+            
+            </td>
+            
+        </tr>
+        
+    </table>
+    
+    </div>
+    
+    
+    
+    
+        </td>
+    </tr>
+    </table>
+    
+        </td>
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:50px; line-height:50px; -mso-line-height-rule:exactly; background-color: #E8EAEA;">
+
+        </td>
+
+    </tr>
+
+    
+    <tr>
+
+        <td style="padding: 0px; margin:0px">
+    
+    <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; background-color: #E8EAEA; text-align: center; font-size: 0px; direction: rtl;" align="center">
+    
+    <tr>
+    
+        <td style="padding: 0px; margin:0px">
+    
+    <!--[if (gte mso 9) | (IE)]>
+    
+    <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse;" align="center">
+    
+    <tr>
+    
+        <td style="padding: 0px; margin:0px; width:50%" valign="top" dir="rtl">
+    <![end if]-->
+    
+    <div style="padding: 0px; margin:0px; display:inline-block; vertical-align: middle;" align="center">
+    
+    <table  class="fullwidth" role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width:360px ; vertical-align: middle;" align="center">
+    
+    <tr>
+    
+        <td style="padding: 0px 30px 0px 30px; margin:0px">
+    
+    <table class="fullwidth" role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width: 300px; vertical-align: middle;" align="center">
+    
+    <tr>
+    
+        <td style="padding: 0px ; margin: 0px;" align="center">
+    
+             <p style="padding: 0px; margin:0px; font-size:16px; line-height:18px; font-family:Arial, Helvetica, sans-serif; color:#000000">
+                <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+                <img class="fullwidth" src="https://d3k81ch9hvuctc.cloudfront.net/company/NHDMiU/images/31fa6709-0f56-4d42-bbe0-88ed08f8f8a3.jpeg" alt="" title="" width="300px" style="padding: 0px; margin:0px; width:300px; max-width:100%; display:block; height: auto ">
+                </a>
+            </p>
+    
+        </td>
+    
+    </tr>
+    
+    </table>
+        
+        </td>
+        
+    </tr>
+    
+    </table>
+    
+    </div>
+    
+    <!--[if (gte mso 9) | (IE)]>
+    
+        </td>
+            
+    <![end if]-->
+    
+    <!--[if (gte mso 9) | (IE)]>
+    
+        <td style="padding: 0px; margin:0px; width:50%" valign="top">
+    
+    <![end if]-->
+    
+    <div style="padding: 0px; margin:0px; display:inline-block; vertical-align: middle;" align="center">
+    
+    <table class="fullwidth" role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width:240px;" align="center">
+    
+        <tr>
+    
+            <td style="padding: 30px 0px 0px 30px; margin:0px">
+    
+    <table class="fullwidth" role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width:260px; " align="center">
+    
+        <tr>
+    
+            <td style="padding: 0px 0px 0px 0px; margin: 0px; text-align: left;" align="center">
+
+                <h1 style="padding:0px 0px 0px 0px; margin:0px; text-align: left; font-size: 20px;  line-height:22px; text-transform: uppercase ; color: #19322F; font-weight: bold; font-family: &quot;DIN Next LT W01 Bold&quot;, Helvetica, Arial, Verdana, sans-serif;  ">
+
+                    A STEP FORWARD IN WATERPROOFING
+
+                </h1>
+
+                <P style="padding:0px 0px 0px 0px; margin:0px; text-align: left; font-size: 16px;  line-height:26px;  color: #19322F; font-family:&quot;DIN Next LT W01 Light&quot;, Helvetica, Arial, Verdana, sans-serif;  ">
+                    GORE&#8209;TEX Invisible Fit technology bonds the 100% waterproof membrane to the upper for a faster&#8209;drying hiker with increased breathability and fewer seams.
+                </P>
+    
+                
+    
+            </td>
+    
+        </tr>
+    
+    </table>
+            
+            </td>
+            
+        </tr>
+        
+    </table>
+    
+    </div>
+    
+    
+    
+    
+        </td>
+    </tr>
+    </table>
+    
+        </td>
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:50px; line-height:50px; -mso-line-height-rule:exactly; background-color: #E8EAEA;">
+
+        </td>
+
+    </tr>
+
+    
+    <tr>
+
+        <td style="padding: 0px; margin:0px">
+    
+    <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; background-color: #E8EAEA; text-align: center; font-size: 0px;" align="center">
+    
+    <tr>
+    
+        <td style="padding: 0px; margin:0px">
+    
+    <!--[if (gte mso 9) | (IE)]>
+    
+    <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse;" align="center">
+    
+    <tr>
+    
+        <td style="padding: 0px; margin:0px; width:50%" valign="top" dir="rtl">
+    <![end if]-->
+    
+    <div style="padding: 0px; margin:0px; display:inline-block; vertical-align: middle;" align="center">
+    
+    <table class="fullwidth" role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width:360px ; vertical-align: middle;" align="center">
+    
+    <tr>
+    
+        <td style="padding: 0px 30px 0px 30px; margin:0px">
+    
+    <table class="fullwidth" role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width: 300px; vertical-align: middle;" align="center">
+    
+    <tr>
+    
+        <td style="padding: 0px ; margin: 0px;" align="center">
+    
+             <p style="padding: 0px; margin:0px; font-size:16px; line-height:18px; font-family:Arial, Helvetica, sans-serif; color:#000000">
+                <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+                <img class="fullwidth" src="https://d3k81ch9hvuctc.cloudfront.net/company/NHDMiU/images/cd31e1d7-7cf7-456d-bc94-d8ee6bb1092e.jpeg" alt="" title="" width="300px" style="padding: 0px; margin:0px; width:300px; max-width: 100%; display:block; height: auto ">
+                </a>
+            </p>
+    
+        </td>
+    
+    </tr>
+    
+    </table>
+        
+        </td>
+        
+    </tr>
+    
+    </table>
+    
+    </div>
+    
+    <!--[if (gte mso 9) | (IE)]>
+    
+        </td>
+            
+    <![end if]-->
+    
+    <!--[if (gte mso 9) | (IE)]>
+    
+        <td style="padding: 0px; margin:0px; width:50%" valign="top">
+    
+    <![end if]-->
+    
+    <div style="padding: 0px; margin:0px; display:inline-block; vertical-align: middle;" align="center">
+    
+    <table class="fullwidth" role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width:240px;" align="center">
+    
+        <tr>
+    
+            <td class="padding" style="padding: 30px 20px 0px 0px; margin:0px">
+    
+    <table class="fullwidth" role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width:260px; " align="center">
+    
+        <tr>
+    
+            <td style="padding: 0px 0px 0px 0px; margin: 0px; text-align: left;" align="center">
+
+                <h1 style="padding:0px 0px 0px 0px; margin:0px; text-align: left; font-size: 20px;  line-height:22px; text-transform: uppercase ; color: #19322F; font-weight: bold; font-family: &quot;DIN Next LT W01 Bold&quot;, Helvetica, Arial, Verdana, sans-serif;  ">
+
+                    TRUST EACH STEP
+
+                </h1>
+
+                <P style="padding:0px 0px 0px 0px; margin:0px; text-align: left; font-size: 16px;  line-height:26px;  color: #19322F; font-family:&quot;DIN Next LT W01 Light&quot;, Helvetica, Arial, Verdana, sans-serif;  ">
+                    The deep multi&#8209;directional lugs of the Vibram&reg; 460 outsole + Megagrip technology provide superior traction in a wide variety of terrain &#8212; wet or dry.
+                </P>
+    
+                
+    
+            </td>
+    
+        </tr>
+    
+    </table>
+            
+            </td>
+            
+        </tr>
+        
+    </table>
+    
+    </div>
+    
+    
+    
+    
+        </td>
+    </tr>
+    </table>
+    
+        </td>
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:75px; line-height:75px; -mso-line-height-rule:exactly; background-color: #E8EAEA;">
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px 0px 0px 0px ; margin:0px;" align="center">
+    
+    <table role="presentation" style="padding: 0px; margin:0px; border: 0px; border-spacing:0px; border-collapse:collapse; " align="center">
+    
+    <tr>
+    
+        <td style="padding: 15px 35px; margin:0px;background-color: #19322F; border: 0px solid #19322F; border-radius:5px" align="center">
+            <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+            <p style="padding: 0px 0px 0px; margin:0px; font-size:15px; line-height:18px; font-family:'DINNextW01-CondensedHea',Helvetica, Arial, Verdana, sans-serif ; color: #ffffff; font-weight:bold ; text-transform: uppercase; background-color: #19322F;" align="center"> 
+    
+                SHOP 2650 CAMPO GTX
+            
+            </p>
+            </a>
+        </td>
+    
+    </tr>
+    
+    </table>
+    
+        </td>
+        
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:75px; line-height:75px; -mso-line-height-rule:exactly; background-color: #E8EAEA;">
+
+        </td>
+
+    </tr>
+
+    <tr>
+            
+        <td style="padding: 0px; margin:0px" align="center">
+
+            <p style="padding: 0px; margin:0px; font-size:16px; line-height:18px; font-family:Arial, Helvetica, sans-serif; color:#000000">
+                <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+                <img src="https://d3k81ch9hvuctc.cloudfront.net/company/NHDMiU/images/9c61dfb7-a1f5-4269-8c29-1dd4f81b0eec.jpeg" alt="People hiking up a mountain  "  width="600px" style="padding: 0px; margin:0px; width:600px; max-width:100%; display: block;">
+                </a>
+            </p>
+            
+        </td>
+            
+    </tr>
+
+
+</table>
+
+        </td>
+
+    </tr>
+
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px; background-color: #19322F" align="center">
+
+<table role="presentation" style="padding: 0px; margin:0px; border: 0px; border-spacing:0px; border-collapse:collapse; width: 100%; max-width: 600px; " align="center">
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:50px; line-height:50px; -mso-line-height-rule:exactly; background-color: #19322F;">
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px; background-color: #19322F;" align="center">
+
+            <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width:600px ;" align="center">
+    
+                <tr>
+                
+                    <td style="padding: 0px 0px 0px 0px; margin:0px">
+                
+                <table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse; width:100%; max-width: 600px; vertical-align: middle;" align="center">
+                
+                <tr>
+                
+                    <td style="padding: 0px ; margin: 0px;" align="center">
+                
+                         <p style="padding: 0px; margin:0px; font-size:16px; line-height:18px; font-family:Arial, Helvetica, sans-serif; color:#000000">
+                            <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+                            <img src="https://d3k81ch9hvuctc.cloudfront.net/company/NHDMiU/images/e0a5bb7f-991f-4e73-86ce-e3f3457ee7fe.png" alt="" title="" width="100px" style="padding: 0px; margin:0px; width:100px; display:block; height: auto ">
+                            </a>
+                        </p>
+                
+                    </td>
+                
+                </tr>
+                
+                </table>
+                    
+                    </td>
+                    
+                </tr>
+                
+                </table>
+                
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:40px; line-height:40px; -mso-line-height-rule:exactly; background-color: #19322F;">
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px" align="center">
+            <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+            <p style="padding: 0px 0px 0px 0px; margin:0px; font-size: 18px; line-height:18px; font-family:'DIN Next LT W01 Bold', Helvetica, Arial, Verdana, sans-serif; font-weight:normal; color:#ffffff; text-transform: capitalize; font-weight: bold;">
+
+                Shop Men&#8217;s
+
+            </p>
+            </a>
+            <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+            <p style="padding: 15px 0px 0px 0px; margin:0px; font-size: 18px; line-height:18px; font-family:'DIN Next LT W01 Bold', Helvetica, Arial, Verdana, sans-serif; font-weight:normal; color:#ffffff; text-transform: capitalize; font-weight: bold;">
+
+                Shop Women&#8217;s
+
+            </p>
+            </a>
+            <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+            <p style="padding: 15px 0px 0px 0px; margin:0px; font-size: 18px; line-height:18px; font-family:'DIN Next LT W01 Bold', Helvetica, Arial, Verdana, sans-serif; font-weight:normal; color:#ffffff; text-transform: capitalize; font-weight: bold;">
+
+                Support
+
+            </p>
+             </a>
+             <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+            <p style="padding: 15px 0px 0px 0px; margin:0px; font-size: 18px; line-height:18px; font-family:'DIN Next LT W01 Bold', Helvetica, Arial, Verdana, sans-serif; font-weight:normal; color:#ffffff; text-transform: capitalize; font-weight: bold;">
+
+                Pay Later With Klarna
+
+            </p>
+             </a>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:40px; line-height:40px; -mso-line-height-rule:exactly; background-color: #19322F;">
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px" align="center">
+
+
+<table role="presentation" style="padding: 0px; margin:0px; border:0px; border-spacing:0px; border-collapse:collapse;" align="center">
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px" align="center">
+
+            <p style="padding: 0px; margin:0px; font-size:16px; line-height:18px; font-family:Arial, Helvetica, sans-serif; color:#000000">
+                <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+                <img src="https://d3k81ch9hvuctc.cloudfront.net/assets/email/buttons/subtleinverse/instagram_96.png" alt="" title="" width="50px" style="padding: 0px; margin:0px; width:50px; display:block; height: auto ">
+                </a>
+            </p>
+
+        </td>
+
+        <td style="padding: 0px 0px 0px 0px; margin:10px" align="center">
+
+            <p style="padding: 0px; margin:0px; font-size:16px; line-height:18px; font-family:Arial, Helvetica, sans-serif; color:#000000">
+                <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+                <img src="https://d3k81ch9hvuctc.cloudfront.net/assets/email/buttons/subtleinverse/twitter_96.png" alt="" title="" width="50px" style="padding: 0px; margin:0px; width:50px; display:block; height: auto ">
+                </a>
+            </p>
+            
+
+        </td>
+
+        <td style="padding: 0px 0px 0px 10px; margin:0px" align="center">
+
+            <p style="padding: 0px; margin:0px; font-size:16px; line-height:18px; font-family:Arial, Helvetica, sans-serif; color:#000000">
+                <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+                <img src="https://d3k81ch9hvuctc.cloudfront.net/assets/email/buttons/subtleinverse/youtube_96.png" alt="" title="" width="50px" style="padding: 0px; margin:0px; width:50px; display:block; height: auto ">
+                </a>
+            </p>
+
+        </td>
+
+        <td style="padding: 0px 0px 0px 10px; margin:0px" align="center">
+
+            <p style="padding: 0px; margin:0px; font-size:16px; line-height:18px; font-family:Arial, Helvetica, sans-serif; color:#000000">
+                <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+                <img src="https://d3k81ch9hvuctc.cloudfront.net/assets/email/buttons/subtleinverse/facebook_96.png" alt="" title="" width="50px" style="padding: 0px; margin:0px; width:50px; display:block; height: auto ">
+                </a>
+
+            </p>
+
+        </td>
+
+
+    </tr>
+
+</table>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:45px; line-height:45px; -mso-line-height-rule:exactly; background-color: #19322F;">
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px" align="center">
+            <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+            <p style="padding: 0px 0px 0px 0px; margin:0px; font-size: 15px; line-height:18px; font-family:'DIN Next LT W01 Light', Helvetica, Arial, Verdana, sans-serif; font-weight:normal; color:#ffffff; "> 
+
+                17634 NE Airport Way Portland, OR 97230
+
+            </p>
+             </a>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:30px; line-height:30px; -mso-line-height-rule:exactly; background-color: #19322F;">
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding: 0px; margin:0px" align="center">
+            <a target="_blank" href="#" style="padding: 0px; margin:0px; text-decoration:none">
+
+            <p style="padding: 0px 0px 0px 0px; margin:0px; font-size: 13px; line-height:15px; font-family:'DIN Next LT W01 Light', Helvetica, Arial, Verdana, sans-serif; font-weight:normal; color:#ffffff; "> 
+
+                Unsubscribe from Danner Emails
+
+            </p>
+            </a>
+
+        </td>
+
+    </tr>
+
+    <tr>
+
+        <td style="padding:0px; margin:0px; height:70px; line-height:70px; -mso-line-height-rule:exactly; background-color: #19322F;">
+
+        </td>
+
+    </tr>
+
+
+</table>            
+        </td>
+
+    </tr>
+
+</table>
+
+        </td>
+
+    </tr>
+
+</table>
+
+    </div>
+    
+</body>
+</html>
